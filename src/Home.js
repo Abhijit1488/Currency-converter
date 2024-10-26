@@ -54,7 +54,8 @@ function Home() {
                         <input
                             type="number"
                             value={amount}
-                            onChange={(e) => setAmount(e.target.value > 0 ? e.target.value : 1)}
+                            // onChange={(e) => setAmount(e.target.value > 0 ? e.target.value : 1)}
+                            onChange={(e) => setAmount(e.target.value)}
                         />
                     </div>
                     <div className="dropdown">
